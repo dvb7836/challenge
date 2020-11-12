@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Star Wars Explorer{% endblock %}</title>
+    <style>{% block style %}{% endblock %}</style>
+</head>
+<body style="margin: 0;">
+{% block navigation %}
+<div style="background-color: orange; padding: .1em 1em;">
+    <ul id="top">
+        <h1><a class="{% block home %}{% endblock %}" href="/">Star Wars Explorer</a></h1>
+    </ul>
+</div>
+{% endblock %}
+
+<div style="padding: 0 5em;">
+{% block content %}
+{% endblock %}
+</div>
+</body>
+</html>

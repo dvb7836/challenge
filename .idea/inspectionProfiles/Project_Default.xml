@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="17">
+            <item index="0" class="java.lang.String" itemvalue="six" />
+            <item index="1" class="java.lang.String" itemvalue="requests" />
+            <item index="2" class="java.lang.String" itemvalue="bottle" />
+            <item index="3" class="java.lang.String" itemvalue="netmiko" />
+            <item index="4" class="java.lang.String" itemvalue="GitPython" />
+            <item index="5" class="java.lang.String" itemvalue="decorator" />
+            <item index="6" class="java.lang.String" itemvalue="grip" />
+            <item index="7" class="java.lang.String" itemvalue="pymongo" />
+            <item index="8" class="java.lang.String" itemvalue="Flask-Cors" />
+            <item index="9" class="java.lang.String" itemvalue="connexion" />
+            <item index="10" class="java.lang.String" itemvalue="redis" />
+            <item index="11" class="java.lang.String" itemvalue="textfsm" />
+            <item index="12" class="java.lang.String" itemvalue="requests-futures" />
+            <item index="13" class="java.lang.String" itemvalue="python_dateutil" />
+            <item index="14" class="java.lang.String" itemvalue="Flask" />
+            <item index="15" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="16" class="java.lang.String" itemvalue="petl" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="server.dataimporter.models.data_import_models.test_returns_data" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="StandardJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

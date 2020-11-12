@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="float: left;">
+    <h1 style="margin: 1em 0;">Collections</h1>
+    <a href="fetch_data"><button style="margin-bottom: 1em;"><h3>Fetch data</h3></button></a>
+</div>
+    <table style="width: 75%;margin: 2em auto;border-collapse: collapse;">
+        <thead>
+            <tr style="text-align: left;">
+                <th style="padding: 1em 1.5em;">Timestamp</th>
+                <th style="padding: 1em 1.5em;">Filename</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for collection in collections %}
+            <tr>
+                <td style="padding: 1em 1.5em;border: 1px solid black;">{{ collection.timestamp }}</td>
+                <td style="padding: 1em 1.5em;border: 1px solid black;"><a href="{{ collection.filename }}">{{ collection.filename }}</a></td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+{% endblock %}
